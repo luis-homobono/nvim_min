@@ -10,4 +10,3 @@ return {
     vim.notify = notify.notify
   end,
 }
-

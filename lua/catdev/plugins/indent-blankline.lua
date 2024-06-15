@@ -7,4 +7,3 @@ return {
     indent = { char = "┊" },
   },
 }
-

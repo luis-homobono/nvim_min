@@ -12,11 +12,11 @@ keymap.set("n", "<leader>sh", "<C-w>s", { desc = "Split window horizontally" })
 keymap.set("n", "<leader>se", "<C-w>=", { desc = "Make splits equal size" })
 keymap.set("n", "<leader>sx", "<cmd>close<CR>", { desc = "Close current split" })
 
--- Navigate vim panes better
-keymap.set('n', '<c-k>', ':wincmd k<CR>')
-keymap.set('n', '<c-j>', ':wincmd j<CR>')
-keymap.set('n', '<c-h>', ':wincmd h<CR>')
-keymap.set('n', '<c-l>', ':wincmd l<CR>')
+-- Navigate vim panes better -- NOT NECESSARY if you have vim-tmux-navigator
+-- keymap.set('n', '<c-k>', ':wincmd k<CR>')
+-- keymap.set('n', '<c-j>', ':wincmd j<CR>')
+-- keymap.set('n', '<c-h>', ':wincmd h<CR>')
+-- keymap.set('n', '<c-l>', ':wincmd l<CR>')
 
 -- tabs manager
 keymap.set("n", "<leader><tab><tab>", "<cmd>tabnew<CR>", { desc = "Open new tab" })
@@ -50,3 +50,4 @@ keymap.set("n", "<leader>qq", "<cmd>qa<CR>", { desc = "Exit nvim" })
 
 -- General Managers
 keymap.set("n", "<leader>L", "<cmd>Lazy<CR>", { desc = "Lazy" })
+keymap.set("n", "<leader>m", "<cmd>Mason<CR>", { desc = "Mason" })

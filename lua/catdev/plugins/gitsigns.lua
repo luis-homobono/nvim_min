@@ -29,11 +29,11 @@ return {
     keymap.set("n", "<leader>hb", function()
       gs.blame_line({ full = true })
     end, { desc = "Blame line" })
-    keymap.set("n", "<leader>gB", gs.toggle_current_line_blame, { desc = "Toggle line blame" })
+    keymap.set("n", "<leader>GB", gs.toggle_current_line_blame, { desc = "Toggle line blame" })
 
     -- Show diffs
-    keymap.set("n", "<leader>gd", gs.diffthis, { desc = "Diff this" })
-    keymap.set("n", "<leader>gD", function()
+    keymap.set("n", "<leader>Gd", gs.diffthis, { desc = "Diff this" })
+    keymap.set("n", "<leader>GD", function()
       gs.diffthis("~")
     end, { desc = "Diff this ~" })
 

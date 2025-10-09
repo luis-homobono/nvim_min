@@ -29,7 +29,7 @@ return {
       -- list of servers for mason to install
       ensure_installed = {
         -- add with i or delete with x on :Mason manager
-        "tsserver",
+        "ts_ls",
         "html",
         "cssls",
         "tailwindcss",

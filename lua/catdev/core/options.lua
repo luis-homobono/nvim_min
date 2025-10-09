@@ -13,6 +13,7 @@ opt.expandtab = true -- expandtab to spaces
 opt.autoindent = true -- copy indent from current line whe starting new line
 
 opt.swapfile = false
+opt.clipboard = "unnamedplus,unnamed" -- you need install xclip in linux
 
 -- search settings
 opt.ignorecase = true -- ignore case when searching
